@@ -144,7 +144,7 @@ with st.sidebar:
     st.markdown("### ⚙️ Parameter Dokumen")
 
     st.markdown('<div class="sidebar-section-title">Informasi Nasabah</div>', unsafe_allow_html=True)
-    cabang = st.text_input("Cabang", key=f"cabang_{ver}", placeholder="Contoh: KCU BCA Thamrin Jakarta")
+    cabang = st.text_input("Cabang", key=f"cabang_{ver}", placeholder="Contoh: Banjarmasin")
     nama_cust = st.text_input("Nama Cust", key=f"cust_{ver}", placeholder="Nama lengkap customer")
     no_rek = st.text_input("Nomor Rekening", key=f"rek_{ver}", placeholder="Contoh: 1234567890")
 
